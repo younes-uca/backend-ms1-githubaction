@@ -1,0 +1,19 @@
+{
+    "cin": "#string",
+    "nom": "#string",
+    "tel": "#string",
+    "email": "#string",
+    "adresse": "#string",
+    "description": "#string",
+    "creance": "#number",
+    "categorieClient": {"id": "#number"}
+
+}
+
+
+
+
+
+
+
+
