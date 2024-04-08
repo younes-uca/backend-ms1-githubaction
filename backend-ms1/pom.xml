@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.1</version>
+        <version>3.2.4</version>
         <relativePath/>
     </parent>
     <groupId>ma.zs</groupId>
@@ -129,6 +129,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+            <version>4.1.1</version>
         </dependency>
         <!-- Test dependencies -->
         <dependency>
@@ -171,6 +172,16 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.5</version>
         </dependency>
 
 
