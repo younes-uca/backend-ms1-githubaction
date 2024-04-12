@@ -38,6 +38,15 @@ public class StockyApplication {
         ctx=SpringApplication.run(StockyApplication.class, args);
     }
 
+//    echo "# backend-ms1-V2" >> README.md
+//    git init
+//    git add README.md
+//    git commit -m "first commit"
+//    git branch -M main
+//    git remote add origin https://github.com/Louhaidy-meryam/backend-ms1-V2.git
+//    git push -u origin main
+
+
 
     @Bean
     RestTemplate restTemplate() {
