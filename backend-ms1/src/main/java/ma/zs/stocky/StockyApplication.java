@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
+import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -44,9 +46,15 @@ public class StockyApplication {
 //    git commit -m "first commit"
 //    git branch -M main
 //    git remote add origin https://github.com/Louhaidy-meryam/backend-ms1-V2.git
-//    git push -u origin main
+//    git push -u origin master
 
 
+    @Test
+    void itShouldPrintHello() {
+        System.out.println("hello");
+        Assertions.assertThat(true).isEqualTo(true);
+
+    }
 
     @Bean
     RestTemplate restTemplate() {
